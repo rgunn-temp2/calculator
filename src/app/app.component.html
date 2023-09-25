@@ -1,0 +1,30 @@
+<h1>Calculator</h1>
+
+<div id="buttoncontainer">
+  <div id="display">
+    <h1 class="displaytext" id="op">{{operator}}</h1>
+    <h1 class="displaytext" id="value">{{buffer}}</h1>
+  </div>
+  <button class="button"></button>
+  <button class="button"></button>
+  <button class="button" (click)="pressClear()">C</button>
+  <button class="button" (click)="pressOperator('÷')">÷</button>
+  <button class="button" (click)="pressDigit(7)">7</button>
+  <button class="button" (click)="pressDigit(8)">8</button>
+  <button class="button" (click)="pressDigit(9)">9</button>
+  <button class="button" (click)="pressOperator('×')">×</button>
+  <button class="button" (click)="pressDigit(4)">4</button>
+  <button class="button" (click)="pressDigit(5)">5</button>
+  <button class="button" (click)="pressDigit(6)">6</button>
+  <button class="button" (click)="pressOperator('-')">-</button>
+  <button class="button" (click)="pressDigit(1)">1</button>
+  <button class="button" (click)="pressDigit(2)">2</button>
+  <button class="button" (click)="pressDigit(3)">3</button>
+  <button class="button" (click)="pressOperator('+')">+</button>
+  <button class="button" (click)="pressBackspace()">←</button>
+  <button class="button" (click)="pressDigit(0)">0</button>
+  <button class="button" (click)="pressDecimal()">.</button>
+  <button class="button" (click)="pressEquals()">=</button>
+
+
+</div>
