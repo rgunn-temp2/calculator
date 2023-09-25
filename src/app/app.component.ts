@@ -31,6 +31,19 @@ export class AppComponent {
       case "+":
         this.buffer = (this.operand + parseFloat(this.buffer)).toString();
         this.operator = "";
+        break;
+      case "-":
+        this.buffer = (this.operand - parseFloat(this.buffer)).toString();
+        this.operator = "";
+        break;
+      case "×":
+        this.buffer = (this.operand * parseFloat(this.buffer)).toString();
+        this.operator = "";
+        break;
+      case "÷":
+        this.buffer = (this.operand / parseFloat(this.buffer)).toString();
+        this.operator = "";
+        break;
     }
   }
 
