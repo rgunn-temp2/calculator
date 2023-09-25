@@ -38,4 +38,10 @@
     font-family: Arial;
     font-size: 20px;
     font-weight: bold;
+    background: #373737;
+    color: white;
+}
+
+.button:hover {
+    background: #505050;
 }
